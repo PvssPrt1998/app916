@@ -1,21 +1,20 @@
-//
-//  ContentView.swift
-//  app916
-//
-//  Created by Николай Щербаков on 07.10.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @AppStorage("showProfile") var showProfile = true
+    @State var showSplash = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if showSplash {
+            Splash(show: $showSplash, dataController: ViewModelFactory.shared.dataController)
+        } else {
+            if showProfile {
+                Profile(show: $showProfile, viewModel: ViewModelFactory.shared.makeProfileViewModel())
+            } else {
+                Tab()
+            }
         }
-        .padding()
     }
 }
 
