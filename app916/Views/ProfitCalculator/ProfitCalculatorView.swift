@@ -186,7 +186,7 @@ struct ProfitCalculatorView: View {
                             showCalculation1 = false
                         }
                     }
-                }
+                }//
             }
             if showCalculation2 {
                 if viewModel.calc != nil {
