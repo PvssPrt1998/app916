@@ -3,7 +3,7 @@ import Foundation
 final class CoreDataManager {
     private let modelName = "DataModel"
     
-    lazy var coreDataStack = CoreDataStack(modelName: modelName)
+    lazy var coreDataStack = CDSk(modelName: modelName)
     
     func saveOrEditMCurrent(_ value: Int) {
         do {

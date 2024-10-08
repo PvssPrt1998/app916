@@ -1,7 +1,7 @@
 import Foundation
 import CoreData
 
-class CoreDataStack {
+class CDSk {
     
     private let modelName: String
     
