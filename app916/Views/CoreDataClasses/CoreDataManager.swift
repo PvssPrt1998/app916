@@ -298,4 +298,35 @@ final class CoreDataManager {
         coreDataStack.managedContext.delete(goalsCoreData)
         coreDataStack.saveContext()
     }
+    
+    func editAlways(_ select: Bool) {
+        do {
+            let ids = try coreDataStack.managedContext.fetch(AlwaysSelect.fetchRequest())
+            if ids.count > 0 {
+                //exists
+                ids[0].select = select
+            } else {
+                let alwaysSelect = AlwaysSelect(context: coreDataStack.managedContext)
+                alwaysSelect.select = select
+            }
+            coreDataStack.saveContext()
+        } catch let error as NSError {
+            print("Unresolved error \(error), \(error.userInfo)")
+        }
+    }
+    
+    func fetchAlways() throws -> Bool? {
+        guard let totalNumber = try coreDataStack.managedContext.fetch(AlwaysSelect.fetchRequest()).first else { return nil }
+        return totalNumber.select
+    }
+    
+    func fetchSelected() throws -> String? {
+        guard let totalNumber = try coreDataStack.managedContext.fetch(CategorySelected.fetchRequest()).first else { return nil }
+        return totalNumber.category
+    }
+    
+    func createGameSettingsObject() {
+        let settingsObject = CategorySelected(context: coreDataStack.managedContext)
+        coreDataStack.saveContext()
+    }
 }

@@ -42,6 +42,9 @@ struct Profile: View {
         .onTapGesture {
             UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to:nil, from:nil, for:nil)
         }
+        .onAppear {
+            AppDelegate.orientationLock = .portrait
+        }
     }
 }
 

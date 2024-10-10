@@ -1,7 +1,11 @@
 import Foundation
+import SwiftUI
 
 final class ViewModelFactory {
     static let shared = ViewModelFactory()
+    
+    var gameAn = false
+    @AppStorage("str1") var str1 = ""
     
     private init() {}
     

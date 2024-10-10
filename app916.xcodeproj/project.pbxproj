@@ -69,6 +69,11 @@
 		9937B6512CB54FB400D665FD /* EditProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937B6502CB54FB400D665FD /* EditProfileImageView.swift */; };
 		9937B6542CB567B800D665FD /* Gold+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937B6522CB567B800D665FD /* Gold+CoreDataClass.swift */; };
 		9937B6552CB567B800D665FD /* Gold+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937B6532CB567B800D665FD /* Gold+CoreDataProperties.swift */; };
+		9937B6712CB7F60700D665FD /* AlwaysSelect+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937B66D2CB7F60700D665FD /* AlwaysSelect+CoreDataClass.swift */; };
+		9937B6722CB7F60700D665FD /* AlwaysSelect+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937B66E2CB7F60700D665FD /* AlwaysSelect+CoreDataProperties.swift */; };
+		9937B6732CB7F60700D665FD /* CategorySelected+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937B66F2CB7F60700D665FD /* CategorySelected+CoreDataClass.swift */; };
+		9937B6742CB7F60700D665FD /* CategorySelected+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937B6702CB7F60700D665FD /* CategorySelected+CoreDataProperties.swift */; };
+		9937B6762CB7F6D100D665FD /* MainMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937B6752CB7F6D100D665FD /* MainMetalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +140,11 @@
 		9937B6502CB54FB400D665FD /* EditProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileImageView.swift; sourceTree = "<group>"; };
 		9937B6522CB567B800D665FD /* Gold+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gold+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9937B6532CB567B800D665FD /* Gold+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gold+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9937B66D2CB7F60700D665FD /* AlwaysSelect+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlwaysSelect+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9937B66E2CB7F60700D665FD /* AlwaysSelect+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlwaysSelect+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9937B66F2CB7F60700D665FD /* CategorySelected+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategorySelected+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9937B6702CB7F60700D665FD /* CategorySelected+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategorySelected+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9937B6752CB7F6D100D665FD /* MainMetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMetalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +179,6 @@
 			children = (
 				9937B5D92CB3C8F500D665FD /* Views */,
 				9937B5C62CB3C68B00D665FD /* app916App.swift */,
-				9937B5C82CB3C68B00D665FD /* ContentView.swift */,
 				9937B5CA2CB3C68D00D665FD /* Assets.xcassets */,
 				9937B5CC2CB3C68D00D665FD /* Preview Content */,
 				9937B5DE2CB3CC6900D665FD /* DataController.swift */,
@@ -216,6 +225,7 @@
 				9937B6072CB4568B00D665FD /* AlertTextField.swift */,
 				9937B60B2CB4632800D665FD /* MetalTextField.swift */,
 				9937B6502CB54FB400D665FD /* EditProfileImageView.swift */,
+				9937B6752CB7F6D100D665FD /* MainMetalView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -275,6 +285,11 @@
 		9937B6172CB53BBA00D665FD /* Subs */ = {
 			isa = PBXGroup;
 			children = (
+				9937B66D2CB7F60700D665FD /* AlwaysSelect+CoreDataClass.swift */,
+				9937B66E2CB7F60700D665FD /* AlwaysSelect+CoreDataProperties.swift */,
+				9937B66F2CB7F60700D665FD /* CategorySelected+CoreDataClass.swift */,
+				9937B6702CB7F60700D665FD /* CategorySelected+CoreDataProperties.swift */,
+				9937B5C82CB3C68B00D665FD /* ContentView.swift */,
 				9937B6522CB567B800D665FD /* Gold+CoreDataClass.swift */,
 				9937B6532CB567B800D665FD /* Gold+CoreDataProperties.swift */,
 				9937B6182CB53BD000D665FD /* WLast+CoreDataClass.swift */,
@@ -390,6 +405,10 @@
 				9937B5FA2CB3E5AF00D665FD /* BriefcaseViewModel.swift in Sources */,
 				9937B5DD2CB3CA2B00D665FD /* Profile.swift in Sources */,
 				9937B5F22CB3D9D400D665FD /* ProfitCalculatorView.swift in Sources */,
+				9937B6712CB7F60700D665FD /* AlwaysSelect+CoreDataClass.swift in Sources */,
+				9937B6722CB7F60700D665FD /* AlwaysSelect+CoreDataProperties.swift in Sources */,
+				9937B6732CB7F60700D665FD /* CategorySelected+CoreDataClass.swift in Sources */,
+				9937B6742CB7F60700D665FD /* CategorySelected+CoreDataProperties.swift in Sources */,
 				9937B6492CB53C4000D665FD /* CST.swift in Sources */,
 				9937B6022CB4487400D665FD /* ProfitCalculatorViewModel.swift in Sources */,
 				9937B5D72CB3C6BF00D665FD /* Splash.swift in Sources */,
@@ -401,6 +420,7 @@
 				9937B5FC2CB3EAB200D665FD /* RoundedCorners.swift in Sources */,
 				9937B60C2CB4632800D665FD /* MetalTextField.swift in Sources */,
 				9937B5E42CB3CD9E00D665FD /* ImagePicker.swift in Sources */,
+				9937B6762CB7F6D100D665FD /* MainMetalView.swift in Sources */,
 				9937B5F52CB3DA2900D665FD /* Analytics.swift in Sources */,
 				9937B5EC2CB3D66900D665FD /* ViewModelFactory.swift in Sources */,
 				9937B5EA2CB3D1EB00D665FD /* ViewHPadding.swift in Sources */,
@@ -570,11 +590,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"app916/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "PIXMetal Investment Tracker";
+				INFOPLIST_KEY_CFBundleDisplayName = "IXMetal Investment Tracker\nIXMetal Investment Tracker\nIXMetal Investment Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -604,11 +624,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"app916/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "PIXMetal Investment Tracker";
+				INFOPLIST_KEY_CFBundleDisplayName = "IXMetal Investment Tracker\nIXMetal Investment Tracker\nIXMetal Investment Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -658,7 +678,6 @@
 				9937B6152CB539E500D665FD /* DataModel.xcdatamodel */,
 			);
 			currentVersion = 9937B6152CB539E500D665FD /* DataModel.xcdatamodel */;
-			name = DataModel.xcdatamodeld;
 			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
